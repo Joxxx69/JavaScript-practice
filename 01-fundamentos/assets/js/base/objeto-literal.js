@@ -79,8 +79,11 @@ personaje.direccion.ubicacion = 'Costa Rica';
 console.log(personaje);
 
 
-const propiedades = Object.getOwnPropertyNames(personaje); // --> retorna los nombres propios de las propiedades del objeto
-const valores = Object.values(personaje); // --> retorna los valores de las propiedas del objeto
+// --> retorna los nombres propios de las propiedades del objeto
+const propiedades = Object.getOwnPropertyNames(personaje);
+
+// --> retorna los valores de las propiedas del objeto
+const valores = Object.values(personaje); 
 
 console.log({propiedades, valores});
 

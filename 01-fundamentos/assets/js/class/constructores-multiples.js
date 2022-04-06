@@ -39,3 +39,6 @@ persona1.getInfo();
 
 persona2.getInfo();
 
+console.warn('---------------------------------');
+
+

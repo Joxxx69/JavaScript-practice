@@ -10,7 +10,7 @@
  */
 // la funcion anonima autoejecutable --> hace que el codigo sea mas privado
 const miModulo= (()=>{
-    'use strict' // --->>> esto hace que javascript evalue el codigo estrictamente
+    'use strict'; // --->>> esto hace que javascript evalue el codigo estrictamente
     let deck = [];
     const tipos =['C','D','H','S'],especiales =['A','J','Q','K'];
 

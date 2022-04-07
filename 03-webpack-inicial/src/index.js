@@ -1,6 +1,11 @@
-// import {saludar} from './js/componentes'
+import {saludar} from './js/componentes'
+import '../src/style.css'
 
-const nombre = 'Santiago';
+// const saludar = require('./js/componentes');
+
+const nombre = 'Santiago Gualotuna';
+
+
 
 
 saludar(nombre);

@@ -11,8 +11,7 @@ import webpacklogo from '../assets/image/webpack-logo.png'
     console.log(webpacklogo)
     const img = document.createElement('img');
     img.src = webpacklogo;
-    // img.width = '200px';
-    // img.height = '200px';
+
     document.body.append(img);
 }
 

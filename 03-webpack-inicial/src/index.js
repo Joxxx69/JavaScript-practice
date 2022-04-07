@@ -5,9 +5,6 @@ import '../src/style.css'
 
 const nombre = 'Santiago Gualotuna';
 
-
-
-
 saludar(nombre);
 
 

@@ -1,0 +1,40 @@
+Algoritmo Factorial
+    Definir n, fact como Real 
+    Definir opc1, opc2 como Entero
+    opc1 = 1
+    opc2 = 2
+    Escribir "***********Menu de opciones************"
+    Escribir " 1: Factorial, 2:Signo del numero"
+    Escribir "Ingrese una opcion"
+    leer opc
+    Si (opc1 ==1 ) entoces
+        Escribir  "Ingrese un numero"
+        leer n
+        fact = 1
+        Si n > 0 entoces
+            Repetir
+                fact = fact * n
+                n=n-1
+            Hasta que n>0
+            Escribir "El numero es positivo"
+            Escribir "El factorial de ",n," es: "fact
+        FinSi
+        Si n < 0 entoces 
+            Escribir "El numero es negativo"
+        FinSi   
+        Si n==0 entoces
+            Escribir "El factorial de ",n," es: "1
+        FinSi
+    FinSi
+    Si (opc2 ==2) entoces
+         Si n > 0 entoces
+            Escribir "El numero es positivo"
+        FinSi
+        Si n < 0 entoces 
+            Escribir "El numero es negativo"
+        FinSi   
+        Si n==0 entoces
+            Escribir "El numero es cero"
+        FinSi
+    FinSi
+FinAlgoritmo
